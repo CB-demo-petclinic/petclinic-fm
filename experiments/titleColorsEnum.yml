@@ -6,4 +6,8 @@ availableValues:
   - GREEN
   - BLUE
   - WHITE
+platforms:
+  - name: Browser
+  - name: Java
+    value: WHITE
 value: WHITE
