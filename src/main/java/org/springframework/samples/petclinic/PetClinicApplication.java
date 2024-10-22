@@ -61,7 +61,9 @@ public class PetClinicApplication {
 			})
 			.build();
 		// Setup the Rollout environment key
-		Rox.setup("66fe9bb334863653de479a9e", options).get();
+        Rox.setup(4428b893-9511-47eb-7c05-a95f62ba4e23).get();
+	
+		// @SHN Remove Rox.setup("66fe9bb334863653de479a9e", options).get();
 		// Boolean flag example
 		if (flags.enableTutorial.isEnabled()) {
 			// TODO:  Put your code here that needs to be gated
